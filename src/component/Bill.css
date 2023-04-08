@@ -1,0 +1,186 @@
+.bill {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    position: fixed;
+    top: 30%;
+    left: 18%;
+    border-radius: 30px;
+    width: 50%;
+    padding: 50px;
+}
+
+.buttonItem {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonItem button {
+    background-color: white;
+    height: 25px;
+    color: rgb(128, 36, 8);
+    font-weight: bold;
+    border-color: rgb(128, 36, 8);
+    width: 65px;
+    border-radius: 5px;
+}
+
+.buttonItem button:hover {
+    background-color: rgb(128, 36, 8);
+    color: white;
+}
+
+.Item {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.footerBill {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.billButton {
+    display: flex;
+    gap: 10px;
+}
+
+.billButtonOrder {
+    background-color: rgb(128, 36, 8);
+    height: 35px;
+    color: white;
+    font-weight: bold;
+    border-color: rgb(128, 36, 8);
+    width: 80px;
+    border-radius: 15px;
+}
+
+.billButtonOrder:hover {
+    background-color: black;
+    color: white;
+}
+
+.billButtonClose {
+    background-color: white;
+    height: 35px;
+    color: rgb(128, 36, 8);
+    font-weight: bold;
+    border-color: rgb(128, 36, 8);
+    width: 80px;
+    border-radius: 15px;
+}
+
+.billButtonClose:hover {
+    background-color: rgb(128, 36, 8);
+    color: white;
+}
+
+.finalCloseButton {
+    background-color: rgb(128, 36, 8);
+    height: 35px;
+    color: white;
+    font-weight: bold;
+    border-color: rgb(128, 36, 8);
+    width: 80px;
+    border-radius: 15px;
+}
+
+.finalCloseButton:hover {
+    background-color: black;
+    color: white;
+}
+
+.confirmSent {
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .bill {
+        top: 30%;
+        left: 17%;
+        border-radius: 30px;
+        width: 50%;
+        padding: 30px;
+    }
+
+    .buttonItem {
+        gap: 8px;
+    }
+
+    .buttonItem button {
+        height: 35px;
+        width: 70px;
+        border-radius: 10px;
+    }
+
+    .billButton {
+        gap: 10px;
+    }
+
+    .billButtonOrder {
+        height: 35px;
+        width: 70px;
+        border-radius: 10px;
+    }
+
+    .billButtonClose {
+        height: 35px;
+        width: 70px;
+        border-radius: 10px;
+    }
+
+    .finalCloseButton {
+        height: 35px;
+        width: 70px;
+        border-radius: 10px;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    .bill {
+        top: 30%;
+        left: 17%;
+        border-radius: 30px;
+        width: 50%;
+        padding: 20px;
+    }
+
+    .buttonItem {
+        gap: 8px;
+    }
+
+    .buttonItem button {
+        height: 25px;
+        width: 30px;
+        border-radius: 10px;
+    }
+
+    .billButton {
+        gap: 10px;
+    }
+
+    .billButtonOrder {
+        height: 25px;
+        width: 60px;
+        border-radius: 15px;
+    }
+
+    .billButtonClose {
+        height: 25px;
+        width: 60px;
+        border-radius: 15px;
+    }
+
+    .finalCloseButton {
+        height: 25px;
+        width: 60px;
+        border-radius: 15px;
+    }
+}

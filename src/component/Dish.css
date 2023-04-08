@@ -1,0 +1,140 @@
+.Dish {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.Dish .line {
+    color: black;
+}
+
+.mainInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.mainInfoLeft {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.mainInfoLeft img {
+    max-width: 20%;
+    height: 100%;
+}
+
+.mainInfoRight {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 150px;
+    gap: 12px;
+}
+
+.amount {
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+    gap: 10px;
+}
+
+.amount input {
+    width: 50px;
+}
+
+.addButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 110px;
+    background-color: rgb(128, 36, 8);
+    color: white;
+    border-radius: 30px;
+}
+
+.addButton:hover {
+    background-color: rgb(90, 27, 6);
+}
+
+.totalmoney {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) {
+    .Dish {
+        width: 100%;
+    }
+
+    .mainInfoLeft img {
+        height: 60%;
+        width: auto;
+    }
+
+    .mainInfoRight {
+        height: 100%;
+        width: 130px;
+        gap: 12px;
+    }
+
+    .amount {
+        margin: 10px;
+        gap: 8px;
+    }
+
+    .amount input {
+        width: 40px;
+    }
+
+    .addButton {
+        height: 30px;
+        width: 110px;
+        border-radius: 30px;
+    }
+    .totalmoney{
+        font-size: 23px;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    .Dish {
+        width: 100%;
+    }
+
+    .mainInfoLeft img {
+        height: 60%;
+        width: auto;
+    }
+
+    .mainInfoRight {
+        height: 100%;
+        width: 130px;
+        gap: 12px;
+    }
+
+    .amount {
+        margin: 10px;
+        gap: 8px;
+    }
+
+    .amount input {
+        width: 40px;
+    }
+
+    .addButton {
+        height: 30px;
+        width: 110px;
+        border-radius: 30px;
+    }
+    .totalmoney{
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,33 @@
+.list {
+    overflow: auto;
+    margin: 50px 0px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 55%;
+    height: 550px;
+    background-color: white;
+    padding: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+    .list {
+        margin: 50px 0px;
+        border-radius: 45px;
+        width: 75%;
+        height: 550px;
+        padding: 25px;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    .list {
+        margin: 50px 0px;
+        border-radius: 40px;
+        width: 90%;
+        height: 550px;
+        padding: 15px;
+    }
+}

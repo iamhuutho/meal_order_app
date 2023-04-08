@@ -1,0 +1,18 @@
+{
+  "orders": [
+    {
+      "name": "12434",
+      "street": "fdsafads",
+      "postalcode": "12437",
+      "city": "afdaf",
+      "cart": [
+        {
+          "name": "Schnitzel",
+          "price": 16.5,
+          "amount": 4
+        }
+      ],
+      "id": 1
+    }
+  ]
+}
