@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.d71d00df.css",
-    "main.js": "/static/js/main.096815a3.js",
-    "static/js/787.ea6e56c6.chunk.js": "/static/js/787.ea6e56c6.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/index.html",
-    "main.d71d00df.css.map": "/static/css/main.d71d00df.css.map",
-    "main.096815a3.js.map": "/static/js/main.096815a3.js.map",
-    "787.ea6e56c6.chunk.js.map": "/static/js/787.ea6e56c6.chunk.js.map"
+    "main.css": "/meal_order_app/static/css/main.d71d00df.css",
+    "main.js": "/meal_order_app/static/js/main.e7aca305.js",
+    "static/js/787.ea6e56c6.chunk.js": "/meal_order_app/static/js/787.ea6e56c6.chunk.js",
+    "static/media/logo.svg": "/meal_order_app/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/meal_order_app/index.html",
+    "main.d71d00df.css.map": "/meal_order_app/static/css/main.d71d00df.css.map",
+    "main.e7aca305.js.map": "/meal_order_app/static/js/main.e7aca305.js.map",
+    "787.ea6e56c6.chunk.js.map": "/meal_order_app/static/js/787.ea6e56c6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d71d00df.css",
-    "static/js/main.096815a3.js"
+    "static/js/main.e7aca305.js"
   ]
 }
